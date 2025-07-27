@@ -1,0 +1,1267 @@
+- The fastest language is english
+- This is the amiibo route 
+- This route use 21 Epona amiibo and 4 box amiibo
+- For the ToS, if i say nothing, use Ancient Battle Axe++ ( AXE ) and guardian sword++ ( SWORD )
+
+- Great Plateau:
+    - .loc(Shrine of Resurection):
+        icon: sor
+        comment: Don't clip
+        notes: Grab Slate, Open door, Watch Oppening cutscene
+        coord: [-1023.25,1795.75]
+    - _Equipment::Weapon<Torch>:
+        coord: [-979.75,1888.5]
+        icon: torch
+    - _Equipment::Weapon<Axe>:
+        icon: equipment
+        movements:
+          - [-930,1873.5]
+    - .boss(Talk to Zelda):
+        icon: zelda
+        coord: [-801,1804.25]
+        comment: Jump into flowers
+    - _Equipment::Bow<Boko bow and arrows>:
+        icon: bow
+        movements:
+          - [-649.5,1761]
+          - [-611,1745.75]
+        notes: You should have 5 to 7 arrows
+    - .boss(Kill Bokoblin):
+        comment: Shield and arrows
+        coord: [-603,1702]
+        icon: shield
+    - _Tower::GreatPlateau
+    - .boss(Talk to Rhoam):
+        icon: king
+        notes: Up Down Down Up
+        comment: Jump and Fall Damage Cancel
+        coord: [-575.75,1682.25]
+    - _Shrine::OmanAu:
+        comment: Run to Shrine
+    - .important(DLC chest):
+        comment: Ruby
+        coord: [-671.25,1524]
+        icon: chest
+    - _Equipment::Bow<Ice Arrow and Fire Arrows>:
+        coord: [-776.875,1558.25]
+    - _Warp::SOR
+    - _Material<3 Hylian shroom>:
+        coord: [-1064.75,1808.5]
+        color: red
+        notes: For heal
+    - _Shrine::KehNamut:
+        comment: Climb up
+    - _Equipment::Bow<Bombs Arrows>:
+        coord: [-1455.0625,2026]
+    - _Equipment::Weapon<Hammer>:
+        icon-map: 0
+        comment: In Owa Daim Shrine
+    - _Shrine::OwaDaim
+    - Stasis Launches To Bombs:
+        coord: [-675,2122]
+    - _Shrine::JaBaij
+    - Tree Launch to ToT:
+        coord: [-646,2075.5]
+    - Paraglider:
+        coord: [-812,1967]
+        icon: king
+        comment: Tree launch up
+    - _Equipment::Bow<Soldier Bow>:
+        icon-map: 0
+    - _Warp::Shrine::OmanAu:
+        color: green
+
+- Duellings Peaks:
+    - _Material<5 Hyrule Herbs>:
+        notes: For heal
+        coord: [-699,1482.875]
+    - Scan Epona:
+        icon: horse
+        coord: [-670.125,1442.25]
+    - _Shrine::BoshKala
+    - _Material<Ores>:
+        comment: Break ores in cave  
+        coord: [700.3125,1788.875]
+    - _Shrine::SheeVaneer:
+        notes: 42451 ( Closest line to the farest line )
+    - _Shrine::SheeVenath:
+        notes: 53142 ( Closest line to the farest line )
+    - _Material<Ores>:
+        coord: [1315.5,1969.5]
+        comment: Break ores under shee vaneer
+    - _Shrine::ReeDahee
+    - Scan Epona:
+        coord: [1301,1859]
+        icon: horse
+    - _Material<6 Swift Violets>:
+        coord: [1642.5,1895]
+        notes: Shoot arrows to make them fall
+    - _Shrine::HaDahamar:
+        notes: .link([Ha Dahamar strat] https://youtu.be/p1x7_7nRyKw) ( little dumb )
+    - _Npc<Beedle>:
+        comment: Sell all Important Ores, Buy 20 Arrows and 3 frogs
+        coord: [1754,1935.5]
+    - _Equipment::Weapon<Axe>:
+        coord: [1808.5,1927.5]
+    - _Shop<Item Shop>:
+        notes: Buy 3 carrots and 3 boko guts
+        movements:
+          - [1764,1590]
+          - [1817.5,1456.5]
+          - [2108,1401]
+          - [2096,1218.5]
+          - [1950.5,1138.5]
+          - [1948.5,1030.5]
+          - [1794.375,1029.625]
+    - _Cook<3 Hasty Elixir>:
+        notes: 1 carrot, 1 frog, 1 guts, 2 violets
+        coord: [1798.5,1013.875]
+        comment: Eat elixirs until you don't have any more
+    - _Equipment::Shield<Pot Lid>:
+        coord: [1795.9375,1011.4375]
+        comment: Don't forgot to drink Elixir ;)
+    - _Npc::Sheika::Female<Impa>:
+        coord: [1777,985.25]
+        comment: Talk Twice, Answer Down Down
+    - Scan Box:
+        Comment: Box Launch to Phrenic
+        icon: tots
+        coord: [1819.0625,984.375]
+    - _Equipment::Bow<Phrenic Bow>:
+        coord: [1722,995.5]
+    - Active .active(Ta'loh Naeg):
+        icon-priority: 0
+        icon: shrine-active
+        coord: [1840.75,889.75]
+    - _Shrine::DakaTuss:
+        notes: .link([Daka Tuss Strategy] https://youtu.be/L5BbHuJpJqw?si=rFn2-zCqw1r3NPpn&t=1745)
+    - _Material<34 Fleet lotus seeds>:
+        movements:
+          - [1683.5,66.5]
+          - [1798.5,150]
+          - [1921.5,234.5]
+          - [1920,342]
+    - _Warp::Shrine::SheeVaneer:
+        color: lightgreen
+
+- Farone:
+    - _Material<Wood>:
+        coord: [1756.5,2723.75]
+    - .boss(Farosh Farm):
+        icon: tots
+        notes: 1 Farosh Scale and 11 Shard of Farosh's Horn
+        comment: Place Torch in campfire to make it burn infinite
+        coord: [1772.75,2816]
+    - _Material<Shard of Farosh's Horn>:
+        movements:
+          - [1716,2954]
+          - [1864,2968]
+    - _Shrine::QukahNata:
+        comment: Throw axe
+    - _Material<Topaz>:
+        icon: chest
+        comment: In chest
+        coord: [1809,3167]
+    - _Shrine::ShodaSah
+    - _Warp::Shrine::QukahNata:
+        color: chocolate
+    - _Cook<8 Simmered Fruit>:
+        notes: 4 fleet lotus seeds + 1 horn
+        coord: [1596.5,3509.5]
+    - _Shrine::ShaiUtoh
+    - _Warp::Shrine::HaDahamar:
+        color: yellow
+
+- Camera:
+    - Scan Epona:
+        icon: horse
+        coord: [1686.75,1972]
+    - Leave epona here:
+        icon: horse
+        coord: [1879.5,2217]
+    - _Equipment::Bow<10 arrows>:
+        coord: [1907.5,2310]
+    - _Shrine::TotoSah:
+        comment: Take Shield of the Mind's Eye
+        notes: .link([Toto Sah Strat] https://youtu.be/c09l1KZm1Ro?si=JECjeSMrJXOfSkM3&t=5294)
+    - Take horse:
+        coord: [1879.5,2217]
+        icon: horse
+    - _Tod::Night:
+        coord: [2360.5,1846.5]
+    - _Shrine::KamUrog
+    - _Shrine::MyahmAgana
+    - _Equipment::Weapon<Wooden Mop>:
+        coord: [3370.25,2067.5]
+    - .boss(Take Blue Flame):
+        icon: tots
+        coord: [3436,1973]
+        comment: Light Hateno Tech Lab
+    - _Snap<Camera>:
+        comment: Talk Purah Twice
+        movements:
+          - [3445,2003]
+          - [3778,2126]
+        notes: .link([Camera strategy] https://youtu.be/jrSPjjr2INA?si=Xa3AO7fkyEHgoohM&t=2553)
+    - _Warp::Shrine::BoshKala:
+        color: magenta
+
+- Central:
+    - Scan Epona:
+        icon: horse
+        coord: [107,1600]
+    - _Shrine::WahgoKatta:
+        notes: .link([Wahgo Katta strat] https://youtu.be/c09l1KZm1Ro?si=nJgR6IHQEXPZRkIp&t=5457)  
+    - .boss(Phantom Greaves):
+        coord: [-508.25,609.625]
+        icon: chest-special
+    - _Shrine::KaamYatak:
+        comment: Take EoD + diamond
+        notes: Push walls with magnesis
+    - .boss(Phantom Armor):
+        icon: chest-special
+        coord: [-246.875,-86.625]
+    - _Snap<Guardian Stalker>:
+        coord: [-259.5,-199.75]
+    - Leave Epona here:
+        coord: [-671.5,-348.5]
+        icon: horse
+        comment: Don't whistle out of castle
+    - _Snap<Guardian Scout>:
+        comment: In shrine
+        icon-map: false
+    - _Shrine::KatahChuki:
+        comment: Use EoD
+    - _Equipment::Bow<5 Electric arrows>:
+        coord: [-657.625,-569.8125]
+    - Slab Launch to castle:
+        notes: .link([Stasis launch] https://youtu.be/i-Oe0H8yNVU?si=Tni_jQtJXNvqbBtY&t=2236)
+        coord: [-485,-844.5]
+    - .boss(Watch Castle Enter Cutscene):
+        coord: [-504,-845.5]
+        icon: ganon
+    - _Snap<Guardian Skywatcher>:
+        coord: [-485.5,-920]
+    - Tree Launch to Zelda's Study:
+        notes: .link([Tree launch] https://youtu.be/i-Oe0H8yNVU?si=AxDIxd6QbWD3xJXv&t=2303)
+        coord: [-353.5,-995]
+    - _Equipment::Weapon<Edge of Duality>:
+        coord: [-334.25,-997]
+        notes: .link([castle route] https://www.youtube.com/watch?v=0aRmsCpomKU)
+    - _Equipment::Bow<5 arrows + royal guard Bow>:
+        coord: [-324.25,-995.5]
+    - .boss(Enter Library):
+        coord: [-141.5,-1096]
+    - _Equipment::Weapon<Stone Smasher>:
+        notes: Break ores near the smasher
+        coord: [-205,-1088]
+    - .boss(Kill Lizalfos with door):
+        icon: tots
+        comment: Grab Boomerang and Shield
+        coord: [-171.5,-1090.5]
+    - _Shrine::SaasKosah:
+        notes: Break boomerang + Use smasher
+        comment: Grab SWORD + AXE
+    - _Material<Naydra's scale>:
+        coord: [-174.75,-1165.5]
+    - _Material<Dinraal's scale>:
+        coord: [-194.75,-1220]
+    - _Warp::Shrine::KatahChuki:
+        color: aliceblue
+    - Take epona:
+        coord: [-671.5,-348.5]
+    - Leave Epona here:
+        coord: [-1002.25,-536]
+        icon: horse
+    - .boss(Break Crates in cave):
+        icon: tots
+        comment: Grab Apples and Arrows
+        coord: [-955,-668]
+    - _Shrine::NoyaNeha:
+        comment: Break stone smasher
+    - Take Epona:
+        coord: [-1002.25,-536]
+    - _Shrine::ZaltaWa:
+        notes: .link([Zalta Wa strat] https://youtu.be/c09l1KZm1Ro?si=YmPgHTLvCsAYhg8u&t=2166)
+    - _Material<Fleet Lotus Seed>:
+        coord: [-1178,-1319]
+        notes: Takes at least 6, you should have enough seeds to cook 2 meals, so 8
+    - _Shrine::MonyaToma:
+        notes: .link([Monya Toma strat] https://youtu.be/i-Oe0H8yNVU?si=7sDivA9jamSlZgEx&t=3163)
+    - .boss(Enter Forgotten Temple):
+        coord: [-1442,-2247.5]
+    - _Shrine::RonaKachta:
+        notes: CHEST !!!!! ( Great Flameblade )
+        comment: Drop hammer
+    - Trades 24 orbs for 6 stamina:
+        icon: shop
+        coord: [-1060.25,-2695.5]
+    - _Warp::Shrine::MonyaToma:
+        color: Aqua
+    - Scan Epona:
+        coord: [-1553,-1469.5]
+        icon: horse
+    - Leave Epona on the top of the cliff:
+        icon: horse
+        coord: [-1956,-1463.5]
+    - .boss(Break Rubbles in front of shrine):
+        coord: [-1969,-1485.5]
+        icon: tots
+    - _Shrine::MaagNorah
+    - Take horse:
+        comment: Climb up
+        coord: [-1956,-1463.5]
+        icon: horse
+    - _Shrine::DunbaTaag
+    - _Warp::Shrine::OmanAu:
+        color: Bisque
+- Tabantha:
+    - Scan Epona:
+        icon: horse
+        coord: [-624,1476]
+    - _Shrine::RotaOoh
+    - Leave Epona here:
+        icon: horse
+        coord: [-1960,644]
+    - _Shrine::MoggLatan
+    - Take horse:
+        coord: [-1960,644]
+        icon: horse
+    - .boss(Shoot Arrow in two rings):
+        notes: .link([Place to shoot arrow] https://youtu.be/J91C4ZkthDM?si=Su41fZMWMLcKm6j1&t=13967)
+        coord: [-1859,76.5]
+        icon: tots
+    - _Shrine::SheemDagoze
+    - _Npc::Rito<Toren>:
+        comment: 500 rupee
+        coord: [-2910,-566.5]
+    - _Equipment::Weapon<Axe>:
+        coord: [-2894,-575.5]
+    - _Shrine::ShaeLoya
+    - Leave Epona here:
+        coord: [-3428,-504]
+        icon: horse
+    - Scan Box:
+        icon: tots
+        coord: [-3371,-451]
+        comment: Box Launch up
+    - _Shrine::TenaKosah:
+        notes: Break first EoD + use SWORD, grab weapons
+    - _Shrine::KahOkeo:
+        notes: .link([Kah Okeo strat] https://youtu.be/2bfEx5lRgng?si=VG1qH-fSfd32mi6b&t=4178)
+        comment: Very dumb
+    - _Warp::Shrine::TenaKosah:
+        color: BlueViolet
+- Rito:
+    - Take horse:
+        icon: horse
+        coord: [-3428,-504]
+    - Leave Epona here:
+        movements:
+          - [-3708,-764]
+          - [-3412,-898]
+          - [-3128,-1252]
+          - [-3024,-1566]
+          - [-3287.75,-1803.375]
+    - Tree launch up:
+        coord: [-3436,-1876]
+    - _Npc::Rito<Kaneli>:
+        coord: [-3629,-1827.75]
+    - _Npc::Rito<Saki>:
+        coord: [-3601.5,-1828.25]
+    - _Shrine::AkhVaquot:
+        notes: .link([Do that] https://youtu.be/c09l1KZm1Ro?si=OoM8cG5nRuTWwYZn&t=2998)
+    - _Shop<Tunic Shop>:
+        coord: [-3623.25,-1764.25]
+        notes: Sell ores, buy snowquill armor
+    - _Shop<Item Shop>:
+        notes: Buy 15 arrows and 10 bomb arrows
+        coord: [-3645.75,-1806]
+    - Tree Launch to Sha Warvo:
+        coord: [-3627.75,-1864]
+    - _Shrine::ShaWarvo
+    - .boss(Enter Cave):
+        coord: [-3985,-2545.5]
+    - _Shrine::MakaRah
+    - _Warp::Shrine::ShaWarvo:
+        color: cadetblue
+    - _Equipment::Bow<Swallow Bow + 10 arrows>:
+        coord: [-3790.5,-2320.75]
+    - _Npc::Rito<Teba>:
+        comment: Do test
+    - _Equipment::Bow<Falcon Bow>:
+        comment: Equip it
+    - Enter Medoh:
+        icon: medoh-enter
+        coord: [-3849,-2284.125]
+    - .boss(Complete Divine Beast):
+        notes: .link([Good Medoh] https://youtu.be/yu263ysGBdw?si=9VkNqWhIeDX-6zTK&t=2271)
+        icon: tots
+        coord: [-3619.75,-1805]
+    - Kill Windblight:
+        notes: .link([Two cycles] https://youtu.be/J3MWwgrkk9M?si=CubsyBlir4Vmfmvz&t=20723)
+        icon: medoh-done
+        comment: Drop RGB after
+    - _Npc::Rito<Kaneli>:
+        coord: [-3629,-1827.75]
+    - _Equipment::Bow<Great Eagle Bow>:
+        coord: [-3644.75,-1832.75]
+    - Tree launch to Voo Lota:
+        coord: [-3626.5,-1861]
+    - _Npc::Rito<Kheel>:
+        comment: Start quest
+        coord: [-3983.5,-1728]
+    - _Warp::Beast::Medoh:
+        color: Coral
+    - _Npc::Rito<Notts>:
+        coord: [-3641.125,-1788]
+    - _Npc::Rito<Cree>:
+        coord: [-3648.75,-1798.5]
+    - _Npc::Rito<Kotts>:
+        coord: [-3486.5,-1847.375]
+    - _Material<2 Hearty Salmon>:
+        notes: For Lanno Kooh Heal
+        coord: [-3490.125,-1855.625]
+    - Use gale:
+        coord: [-3571.9545758436134,-1808.9154506661607]
+        icon: medoh-done
+    - _Cook<Hearty Salmon Meunière>:
+        notes: Salmon + Butter + Wheat
+        coord: [-3600.375,-1784.75]
+    - _Npc::Rito<Genli>:
+        comment: Give it the Hearty Salmon Meunière
+        icon-map: false
+    - _Tod::Noon
+    - Make campfire on Pedestal:
+        icon: cook
+        coord: [-3615.5,-1567.5]
+    - _Shrine::BareedaNaag:
+        notes: .link([Bareeda Naag strat] https://youtu.be/c09l1KZm1Ro?si=FvuBhxKL1VeC-hls&t=4146)
+    - Tree launch to Voo Lota:
+        coord: [-3634,-1546.5]
+    - _Npc::Rito<Kheel>:
+        comment: 45312
+        notes: Drop leaf after the shrine appear
+        coord: [-3983.5,-1728]
+    - _Shrine::VooLota
+    - _Warp::Shrine::AkhVaquot:
+        color: Darkgreen
+- Hebra 1:
+    - Tree Launch to Stable
+    - _Equipment::Weapon<2 axes>:
+        notes: Drop old axes
+        coord: [-3267,-1733]
+    - Take Horse:
+        icon: horse
+        coord: [-3287.75,-1803.375]
+    - Leave Epona here:
+        icon: horse
+        coord: [-2435,-1933]
+    - Use gale:
+        coord: [-2446.7902881790706,-1980.8992262298834]
+        icon: medoh-done
+    - _Shrine::LannoKooh:
+        notes: CHEST !!!! ( gold rupee )
+    - Take horse:
+        coord: [-2435,-1933]
+        icon: horse
+    - _Shrine::RinOyaa
+    - _Shrine::ShaGehma
+    - Use gale:
+        coord: [-865.5,-3536.5]
+        icon: medoh-done
+    - .boss(Enter Maze):
+        coord: [-784,-3527.5]
+        icon: tots
+    - _Shrine::QazaTokki
+    - _Warp::Shrine::RinOyaa:
+        color: darkgoldenrod
+    - Scan Epona:
+        coord: [-1690,-2534]
+        icon: horse
+    - .boss(Enter East Dark Forest):
+        coord: [83,-3127]
+    - .boss(Take Hinox Orb):
+        coord: [338,-3130]
+        icon: tots
+        notes: .link([Ketoh Wawai Enter] https://youtu.be/i-Oe0H8yNVU?si=vsLOUyOf-f2_IrnE&t=8109)
+    - _Shrine::KetohWawai
+    - _Warp::Shrine::DakaTuss:
+        color: crimson
+- Akkala:
+    - Scan Epona:
+        coord: [1537,488]
+        icon: horse
+    - Leave Epona here:
+        icon: horse
+        coord: [942,815]
+    - _Shrine::HilaRao
+    - Take horse:
+        coord: [942,815]
+        icon: horse
+    - _Material<Hearty food>:
+        comment: Not mendatory
+        coord: [859,260]
+    - _Shrine::KayaWan
+    - Use gale:
+        coord: [1454,-292]
+        icon: medoh-done
+    - _Shrine::ShehRata:
+        notes: .link([Sheh Rata strat] https://youtu.be/c09l1KZm1Ro?si=p3NWK-Yy29sDeZHH&t=6084)
+    - Tree Launch to Beach
+    - Scan Epona:
+        coord: [1810,-354]
+        icon: horse
+    - _Shrine::SohKofi:
+        notes: Use EoD
+    - _Shrine::TahMuhl:
+        comment: Tah Muhl moment
+        movements:
+          - [2094,-386]
+          - [2409,-826]
+          - [2302,-941]
+    - _Shrine::MoaKeet
+    - _Equipment::Weapon<Double axe>:
+        coord: [2590.5,-1155.5]
+    - Tree launch + Run to shrine:
+        coord: [2607,-1391]
+        notes: .link([Tree launches] https://youtu.be/-qDWrKjpAo8)
+    - _Shrine::SahDahaj
+    - Use gale:
+        coord: [2683,-1556.5]
+        icon: medoh-done
+    - Tree launch to Ze Kasho:
+        movements:
+          - [2639,-1477.5]
+          - [2845.5,-1587]
+    - Use gale:
+        coord: [2857,-1605.5]
+        icon: medoh-done
+    - _Shrine::ZeKasho
+    - Scan Epona:
+        coord: [3131,-1655]
+        icon: horse
+    - _Shrine::DahHesho:
+        movements:
+          - [3284,-1695]
+          - [3476,-1769]
+          - [3508,-1544]
+          - [3554,-1047]
+          - [3712,-1009]
+          - [3863,-1096]
+          - [3899.6875,-1303.8125]
+        notes: Use EoD, active a ragdoll glitch at end of the shrine
+    - _Shrine::KenaiShakah:
+        notes: Use EoD, Grab Axe
+        comment: Blow up a bomb on you to break Rubbles
+    - Take wind:
+        coord: [4298.162559843153,-731.5505276242529]
+        icon: tots
+    - Tree Launch to Isles:
+        coord: [4402.662559843153,-842.0505276242529]
+    - _Shrine::KahMael
+    - _Equipment::Bow<5 fire arrows>:
+        coord: [4689,-1435.25]
+        comment: Magnet chest
+    - _Snap<Guardian Skywatcher>:
+        comment: Backup
+        coord: [4630,-1406]
+    - .boss(Push Orb with Stasis + Bomb arrow):
+        coord: [4623.5,-1834]
+        icon: tots
+    - _Shrine::RitaagZumo:
+        movements:
+          - [4694,-1949]
+          - [4525,-2128.75]
+    - .boss(Go Accros sea with Cryonis):
+        coord: [4470.5,-2214]
+        icon: tots
+    - Scan Epona:
+        coord: [4286.5,-2260]
+        icon: horse
+    - _Shrine::KatosaAug
+    - Use gale:
+        coord: [4525.558279308951,-3224.783041341858]
+        icon: medoh-done
+    - .boss(Enter Maze):
+        coord: [4626,-3688]
+        icon: tots
+    - _Shrine::TuKaloh:
+        comment: CHEST !!!!!! ( barbarian armor )
+        icon: chest-special
+    - _Chest<Travel Medallion>:
+        icon: chest-special
+        coord: [4655.5,-3567.25]
+    - _Warp::Shrine::KatosaAug:
+        color: darkturquoise
+        notes: You can warp to Mogg Latan to place travel medallion to safe Mijah Rokee
+    - Offer Scale:
+        coord: [3751.125,-2665.125]
+        icon: material
+    - _Shrine::TutsuwaNima:
+        notes: use Ke'nai Shakah's AXE, grab SWORD
+    - Leave Epona here:
+        coord: [3304,-3606]
+        icon: horse
+    - _Shrine::ZunaKai
+    - Use gale:
+        coord: [3322.7918106220623,-3435.4610228929832]
+        icon: medoh-done
+    - Take horse:
+        icon: horse
+        coord: [3304,-3606]
+    - .boss(Start Gut Check Challenge):
+        coord: [2675.5,-3465.5]
+        icon: tots
+    - Use gale:
+        coord: [2715.5,-3466.5]
+        icon: medoh-done
+    - _Shrine::GoraeTorr
+    - _Warp::Shrine::ShehRata:
+        color: hotpink
+- Korok Forest:
+    - Tree Launch to Rocks:
+        coord: [1542.6875,-374.375]
+    - Scan Epona:
+        coord: [1285.5,-532]
+        icon: horse
+    - Leave Epona here:
+        coord: [1030.0232523953664,-677.9845360283243]
+        icon: horse
+    - _Shrine::NamikaOzz:
+        notes: Grab AXE
+    - Glider to Beach
+    - Scan Epona:
+        coord: [979,-1106]
+        icon: horse
+    - _Shrine::MirroShaz
+    - Through Lost Wood:
+        coord: [705,-1938]
+        icon: tots
+        comment: Grab Torch if not sure
+    - .important(Don't Walk near MS, there a cutscene):
+        coord: [479,-2096.75]
+        icon: tots
+    - _Shrine::KeoRuug:
+        comment: 5312, from left to right
+    - Talk to .npc(Damia):
+        coord: [550.5,-2224]
+        icon: npc
+        notes: Test of Wood
+        comment: Throw Soldier's Bow
+    - Use gale:
+        coord: [746,-2332]
+        icon: medoh-done
+    - _Shrine::MaagHalan
+    - _Warp::Shrine::KeoRuug:
+        color: gold
+    - Talk to .npc(Tasho):
+        coord: [308.5,-2252.5]
+        icon: npc
+        notes: The Lost Pilgrimage
+    - _Shrine::DaagChokah:
+        comment: Don't Wait Oaki
+    - _Warp::Shrine::KeoRuug:
+        color: greenyellow
+    - .important(Don't) Talk to .npc(Korok):
+        icon: npc
+        coord: [304,-2090]
+    - .boss(Place Rusty Shield in Tree):
+        coord: [160.5,-1893.5]
+        icon: tots
+    - _Equipment::Weapon<Korok Leaf>:
+        coord: [91,-1894]
+        comment: Drop Wooden Sword
+    - .boss(Place Chest in Tree):
+        coord: [60.5,-1908.5]
+        icon: tots
+    - _Shrine::KuhnSidajj
+    - _Warp::TechLab::Hateno:
+        color: mediumaquamarine
+- Farosh 2:
+    - Go to raft:
+        coord: [3949,2444]
+    - _Shrine::ChaasQeta
+    - .boss(Enter Eventide):
+        coord: [4479.04212988968,3491.5359863944504]
+        icon: tots
+        comment: Drop useless Leaf + Axe
+    - .boss(Grab Orb):
+        coord: [4643.02106494484,3629.767993197225]
+        icon: tots
+    - .boss(Place Orb):
+        coord: [4497.02106494484,3394.767993197225]
+        icon: tots
+    - .boss(Grab Orb on Hinox):
+        coord: [4533.52106494484,3706.267993197225]
+        icon: tots
+        comment: Don't whistle, Be discreet
+    - .boss(Place Orb):
+        coord: [4480.02106494484,3754.267993197225]
+        icon: tots
+    - .boss(Grab Orb):
+        coord: [4642.02106494484,3736.767993197225]
+        icon: tots
+    - .boss(Place Orb):
+        coord: [4642.02106494484,3736.767993197225]
+        icon: tots
+        comment: Under Slab
+    - _Shrine::KorguChideh
+    - _Warp::Shrine::QukahNata:
+        color: darkgrey
+    - Scan epona:
+        coord: [2063,3365.5]
+        icon: horse
+    - _Shrine::YahRin:
+        notes: .link([Yah Rin strat] https://youtu.be/K5hu9E6Fup0?si=I1UCxwUhWQyulT1e&t=21)
+    - Leave epona here:
+        icon: horse
+        coord: [2602,2961]
+    - .boss(Grab Orb):
+        coord: [2692,2974]
+        icon: tots
+    - .boss(Place Orb):
+        coord: [2627,2853]
+        icon: tots
+    - .boss(Grab Orb):
+        coord: [2419,2779]
+        icon: tots
+    - .boss(Place Orb):
+        coord: [2616,2827]
+        icon: tots
+    - .boss(Grab Orb):
+        coord: [2767,2711]
+        icon: tots
+    - .boss(Place Orb):
+        coord: [2645,2818]
+        icon: tots
+    - _Shrine::TawaJinn
+    - Take horse:
+        icon: horse
+        coord: [2602,2961]
+    - _Shrine::MuwoJeem
+    - _Snap<Portal 1>:
+        coord: [3797,3616.5]
+        comment: Under tree
+    - Tree Launch to Portal 2
+    - _Snap<Portal 2>:
+        coord: [3530.5,3367]
+        comment: Between cliffs
+    - _Snap<Portal 3>:
+        coord: [3392.5,3479.5]
+        comment: Betweens rocks in water
+    - _Npc<Garini>:
+        coord: [3438,3326.5]
+        comment: Talk twice
+    - .boss(Crouch on Pedestal):
+        coord: [3433.375,3332.75]
+        icon: tots
+    - _Shrine::KahYah:
+        notes: .link([Kah Yah strat] https://www.youtube.com/watch?v=K5hu9E6Fup0)
+    - _Warp::Shrine::SohKofi:
+        color: darkolivegreen
+        notes: We can't scan Epona at Mo'a Keet, so, that's the closest shrine to Mo'a
+- Eldin:
+    - Scan Epona:
+        icon: horse
+        coord: [2192.6559879994056,-336.21822935513774]
+    - _Npc::Goron<Gaile>:
+        comment: Buy 3 fireproof elixir
+        movements: 
+        - [2287.6559879994056,-459.21822935513774]
+        - [2470.6559879994056,-510.21822935513774]
+        - [2615.6559879994056,-712.2182293551377]
+        - [2669.6559879994056,-964.2182293551382]
+        - [2609,-1134.5]
+    - _Snap<Guardian Stalker>:
+        coord: [2423,-1656]
+        comment: Backup
+    - Use gale:
+        coord: [2394,-1883]
+        icon: medoh-done
+        notes: .link([how to use gales] https://youtu.be/jOhEduB2DwA?si=mbj6cV1lCixl2P8P&t=4944)
+    - Use gale:
+        coord: [2244,-2137]
+        icon: medoh-done
+    - _Shrine::DaqaKoh
+    - _Shop<Goron Armor Shop>:
+        comment: Buy flamebreaker boots
+        coord: [1643.75,-2411]
+    - _Npc::Goron<Bladon>:
+        notes: A Brother's Roast
+        coord: [1646.5,-2467]
+    - _Shrine::ShaeMosah
+    - .boss(Take Minecart to Shrine):
+        coord: [1768,-2621.5]
+        icon: tots
+        comment: Be careful, it's dangerous
+    - _Shrine::ShoraHah:
+        comment: Don't keep torch
+    - _Warp::Shrine::DaqaKoh:
+        color: darksalmon
+    - _Npc::Goron<Gonguron>:
+        coord: [2042,-2039]
+        notes: Need to talk to the goron to continue the quest
+    - Grab stone meat, Go to Cave:
+        coord: [1824,-1888.5]
+        icon: cook
+    - _Shrine::KayraMah:
+        notes: .link([Kayra Mah strategy] https://youtu.be/_ykgA0CWRZw?si=R282T0IaaTZVD2YO&t=984)
+        comment: Very hard
+    - _Shrine::QuaRaym
+    - _Warp::Shrine::MoggLatan:
+        notes: Do this section only if you have blood moon
+- Blood Moon:
+    - Glider to Pedestal
+    - .boss(Active Pedestal):
+        notes: Unwear clothes
+        icon: tots
+        coord: [-2769,176]
+    - _Shrine::MijahRokee
+    - Scan Epona:
+        icon: horse
+        coord: [-2737,120]
+    - .boss(Push Orb):
+        coord: [-2130,-889]
+        icon: tots
+    - .boss(Push Orbs):
+        coord: [-2259,-1001]
+        icon: tots
+    - .boss(Place Orb):
+        icon: tots
+        movements:
+        - [-2293,-925]
+        - [-2290,-879]
+        - [-2249,-884]
+        - [-2250,-925]
+    - _Shrine::TohYahsa:
+        notes: .link([Toh Yahsa Strat] https://youtu.be/piEbfDD1R1Q?si=r8DU46Vlsaih7OoD&t=18656) (3 hits)
+    - _Warp::Shrine::MoaKeet:
+        color: deeppink
+- Lanayru:
+    - _Tod::Morning:
+        coord: [2602,-1125.5]
+    - Double tree launch:
+        movements:
+          - [2844,-789]
+          - [2806,-672]
+    - _Material<Fleet Lotus Seeds>:
+        coord: [3319,-505.75]
+        notes: You should have 12
+    - _Shrine::NeezYohma:
+        notes: .link([Ne'ez Yohma Strat] https://youtu.be/jrSPjjr2INA?si=k9Tq9QSUgEsWMOgn&t=10262)
+    - _Cook<3 Speed Food>:
+        coord: [3302.75,-521.75]
+    - _Equipment::Weapon<Lightscale trident>:
+        coord: [3225,-598.5]
+    - _Warp::Shrine::NeezYohma:
+        color: indigo
+    - Tree launch up:
+        movements:
+          - [3144,-606]
+          - [3083.5,-459]
+    - .boss(Slam Pedestal with Lightscale Trident):
+        coord: [3083.5,-459]
+        icon: tots
+    - _Shrine::DagahKeek
+    - _Warp::Shrine::TalohNaeg:
+        color: Brown
+- Kakarico:
+    - _Tod::Noon:
+        coord: [1894.75,901]
+        comment: Only if already don't
+    - _Material<4 fairy>:
+        coord: [1960.5,850.75]
+        notes: For heal
+    - .boss(Open Great Fairy):
+        coord: [1975.75,842.25]
+        icon: tots
+    - _Snap<Great Fairy>:
+        coord: [1966,876.5]
+    - Pick up 2 Cucco:
+        icon: tots
+        movements:
+          - [1837.25,935]
+          - [1850.25,974.25]
+    - _Npc::Sheika::Male<Cado>:
+        notes: Flown the coop
+        coord: [1833.5,964.5]
+    - _Npc::Sheika::Male<Pikango>:
+        coord: [1827,985]
+    - _Tod::Night:
+        coord: [1827.5,996.5]
+    - Pick up Cucco:
+        coord: [1820.625,1002.25]
+        icon: tots
+    - _Material<5 Sunset Firefly>:
+        coord: [1901.75,995.25]
+    - Pick up 2 Cucco:
+        icon: tots
+        movements:
+          - [1911.5,1003.25]
+          - [1897,974.25]
+    - Pick up 2 Cucco:
+        movements:
+          - [1882.25,1045.75]
+          - [1872,1005.5]
+        icon: tots
+    - _Npc::Sheika::Male<Cado>:
+        notes: Finish Flown the coop
+        coord: [1833.5,964.5]
+    - _Npc::Sheika::Female<Lasli>:
+        coord: [1900.25,1034.875]
+        notes: Talk twice, then drop fireflys and answer "they don't live long"
+    - _Npc::Sheika::Female<Paya>:
+        notes: GG boy
+        coord: [1775.25,988.75]
+    - _Tod::Night:
+        notes: For Lakna Rokee
+        coord: [1798.5,1013.875]
+    - _Shrine::TalohNaeg:
+        icon-map: false
+        comment: Do the shrine
+    - _Material<Wood>:
+        coord: [1929,929.25]
+        notes: Farm 7-8 with Bombs, don't switch modules
+    - Wait .npc(Dorian):
+        icon: npc
+        coord: [2007,960.25]
+    - Kill Yiga:
+        coord: [2023.25,957.5]
+        icon: equipment
+        comment: Use SWORD
+    - .boss(Place Orb):
+        coord: [2028.25,969.25]
+        icon: tots
+    - _Shrine::LaknaRokee:
+        notes: CHEST !!!! ( EoD for ToS )
+    - Scan Epona:
+        coord: [2058.75,855.5]
+        icon: horse
+    - .boss(Get a Deer):
+        movements:
+          - [2254,771] 
+          - [2528,356]
+        icon: tots
+    - .boss(Place Dear on Pedestal):
+        coord: [2574.5,478]
+        icon: tots
+    - .important(Go on your horse and forget Dear):
+        comment: Else, Epona will disappear
+        icon-doc: chest-special
+    - _Shrine::MezzaLo:
+        notes: .link([Mezza Lo strat] https://youtu.be/rupJ9KWVPUs?si=0_orwEz6JRK05sTl&t=2605)
+    - _Equipment::Bow<Shock Arrow>:
+        movements: 
+          - [2272,778]
+          - [2600,1034]
+        comment: Metal Chest
+    - _Equipment::Bow<Fire Arrows>:
+        coord: [2664,1196.5]
+        comment: Wooden chest
+    - _Shrine::DowNaeh:
+        comment: Place 5 Firecamp to push Button
+    - _Warp::TechLab::Hateno:
+        color: Linen
+- Hateno:
+    - _Shrine::TahnoOah
+    - Offer Scale:
+        coord: [3925.75,1335.25]
+        icon: material
+    - _Shrine::JitanSami
+    - _Shrine::RuccoMaag:
+        notes: .link([Rucco Maag strat] https://youtu.be/L5BbHuJpJqw?si=Az5Q2tJO9H9_f2Wn&t=3386)
+    - _Shrine::ShaiYota:
+        movements:
+          - [4089,469]
+          - [4160,485]
+          - [4197,492]
+          - [4245.1875,253.625]
+    - _Warp::Shrine::JaBaij:
+        color: lightslategrey
+- Lake:
+    - Scan Epona:
+       icon: horse
+       coord: [-384.5,2009.5]
+    - Place .loc(Travel Medallion):
+        coord: [-62.625,2466.25]
+        icon: warp
+    - _Shrine::YaNaga
+    - _Warp::TravelMedallion<-62.625,2466.25>:
+        color: pink
+    - _Shrine::PumaagNitae:
+        notes: Break windcleaver
+    - _Material<Hearty Radish>:
+        coord: [582.5,3025.25]
+    - _Shrine::KaoMakagh
+    - _Shrine::ShoqaTatone:
+        comment: Run to shrine
+    - _Warp::Shrine::SheeVaneer:
+        color: papayawhip
+    - Offer Scale:
+        coord: [873.5,2367]
+        icon: material
+    - _Shrine::ShaeKatha
+    - _Warp::Shrine::KehNamut:
+        color: teal
+- Gerudo:
+    - _Shrine::JeeNoh:
+        comment: Glider to shrine
+    - _Warp::Shrine::KehNamut:
+        color: firebrick
+    - _Shrine::DahKaso
+    - _Warp::Shrine::KehNamut:
+        color: blue
+    - Talk to .npc(Bayge):
+        notes: Test of Will
+        coord: [-2006,1725]
+        comment: 2nd test -> Spin to remove burning
+        icon: npc-goron
+    - _Shrine::JolooNah
+    - Use gale:
+        coord: [-2053,1712]
+        icon: medoh-done
+    - _Shrine::KayNoh
+    - Active Dako Tah:
+        icon: shrine-active
+        icon-priority: 0
+        coord: [-3316.8125,2162.8125]
+    - Take sand seal:
+        icon: npc-gerudo
+        coord: [-3241.25,2177.5]
+    - Talk to .npc(Benja):
+        icon: npc
+        coord: [-3804.5,2831.5]
+        notes: Forbidden City Entry
+    - _Shrine::DaqoChisay:
+        notes: .link([Daqo Chisay strat] https://youtu.be/jrSPjjr2INA?si=CmOm0zfGu8NBJrlE&t=7108)
+    - Shield Surf to Bazar
+    - _Equipment::Weapon<Double Axe>
+    - Talk to .npc(Vilia):
+        icon: npc-gerudo
+        notes: Buy gerudo clothes
+        coord: [-3260.5625,2613.625]
+    - Shield Surf to Statues
+    - Use gale to First Orb:
+        coord: [-2801.5,2726.5]
+        icon: medoh-done
+    - .boss(Place Orbs Right Way):
+        coord: [-2716.5,2796]
+        icon: tots
+        notes: .link([Korsh O'hu outside] https://media.discordapp.net/attachments/303990410500374528/790049019690614794/Heroines_Map_Directions.png?width=804&height=670&ex=67964c3c&is=6794fabc&hm=2f562f090eca415ac52b54f12513213917bb0dd4e045c1419151061ee871b873&)
+    - _Shrine::KorshOhu
+    - _Warp::Shrine::DaqoChisay:
+        color: grey
+    - Talk to .npc(Bozai):
+        coord: [-3763,2884]
+        icon: npc-gerudo
+        comment: Grab Snowboots
+    - Talk to .npc(Riju):
+        icon: npc-gerudo
+        coord: [-3886,2965]
+    - Talk to .npc(Teake):
+        coord: [-3922,2940.75]
+        comment: Else, you can't enter Hideout
+        icon: npc-gerudo
+    - _Warp::Shrine::LannoKooh:
+        color: cyan
+- Hebra 2:
+    - .boss(Take wind):
+        coord: [-2660,-2640]
+        icon: tots
+    - _Shrine::GomaAsaagh:
+        notes: CHEST ! ( royal claymore )
+        movements:
+          - [-2655.25,-2654.75]
+          - [-2793.375,-2882.125]
+    - _Shrine::ShadaNaw
+    - Place .loc(travel medallion):
+        icon: warp
+        coord: [-3444,-3263]
+    - _Shrine::MozoShenno:
+        notes: Use royal claymore
+    - _Warp::TravelMedallion<-3444,-3263>:
+        color: violet
+    - _Chest<Bomb Arrow>:
+        coord: [-3635.625,-3309.25]
+    - Place .loc(travel medallion):
+        icon: warp
+        coord: [-3777.7250663972045,-3501.5974508982035]
+    - Scan Box:
+        coord: [-3792,-3547]
+        icon: tots
+    - _Shrine::ToQuomo:
+        notes: Break door with box amiibo, CHEST !! ( royal claymore )
+    - _Warp::TravelMedallion<-3777.7250663972045,-3501.5974508982035>:
+        color: white
+    - Use gale:
+        coord: [-3734.7250663972045,-3547.5974508982035]
+        icon: medoh-done
+    - _Shrine::HiaMiu:
+        notes: Use royal claymore
+    - _Warp::Shrine::ShadaNaw:
+        color: chartreuse
+    - Tree Launch to Rok Uwog:
+        coord: [-2975,-3175]
+    - _Shrine::RokUwog
+    - Scan Box:
+        icon: tots
+        coord: [-2420,-2300]
+    - _Shrine::GeeHarah:
+        comment: Shield surf to shrine
+        notes: Break door with box amiibo
+    - _Warp::Shrine::ShaeLoya:
+        color: darkgreen
+- Gerudo 2:
+    - Scan Epona:
+        coord: [-2800,-416]
+        icon: horse
+    - .boss(Shoot Shock Arrow):
+        coord: [-3798,703]
+        icon: tots
+    - _Shrine::KeehaYoog:
+        comment: Get diamond in shrine
+    - _Shrine::KemaKosassa
+    - Shield Surf to Kema Zoos
+    - _Shrine::KemaZoos
+    - Take Sand Seal:
+        coord: [-4636,1938]
+        icon: npc-gerudo
+        comment: Stun It with Bomb Arrow
+    - .boss(Light Torch):
+        coord: [-4796.5,2770]
+        icon: tots
+        comment: Stun Melduga with Bomb arrow
+    - _Shrine::ThoKayu
+    - _Chest<10 Fire Arrow>:
+        coord: [-4600.5625,2650.1875]
+        comment: Wooden Chest
+    - Take Sand Seal:
+        coord: [-4635,2705.75]
+        icon: npc-gerudo
+    - _Tod::Noon:
+        coord: [-4873.25,3747.75]
+    - _Shrine::HawaKoth
+    - _Warp::Shrine::DakoTah:
+        color: white
+    - _Shrine::DakoTah:
+        icon-map: false
+        comment: Do the shrine now
+    - Use gale:
+        coord: [-3538,1990]
+        icon: medoh-done
+    - .boss(Shoot to Tower):
+        coord: [-3582,1987]
+        icon: tots
+    - _Shrine::SasaKai
+    - Use gale:
+        coord: [-3731,1902]
+        icon: medoh-done
+    - Use gale:
+        coord: [-3817,1894]
+        icon: medoh-done
+    - _Shrine::ShoDantu
+    - Yiga Clan Hideout:
+        icon: kohga
+        coord: [-3474.5,1341.5]
+        notes: .link([Follow this route] https://youtu.be/jrSPjjr2INA?si=8SQ4BAkrh7RJAh-o&t=7621)
+    - Thunder Helmet:
+        coord: [-3449,1341.5]
+        icon: chest
+        notes: Use AXE
+    - _Chest<Fire Arrows>:
+        coord: [-3114,1326]
+        comment: In Lizalfos Camp
+    - _Shrine::KuhTakkar:
+        comment: Use 5-7 fire arrows to Open it
+        notes: .link([Kuh Takkar strat] https://youtu.be/J91C4ZkthDM?si=TkgRsHlCmXWzw-E5&t=5680)
+    - _Warp::Shrine::DaqoChisay:
+        color: plum
+    - _Shop<Arrow shop>:
+        notes: Buy x1 bombs arrow, x1 shock arrows, x1 fire arrow
+        coord: [-3860.125,2919.5]
+    - _Npc::Gerudo<Riju>:
+        coord: [-3869.125,2948]
+    - _Npc::Gerudo<Frelly>:
+        comment: Answer "Let's seal the deal!"
+        coord: [-3769.5,2925.125]
+    - _Npc::Gerudo<Riju>:
+        coord: [-3435.75,3128.5]
+    - _Npc::Gerudo<Pokki>:
+        coord: [-2966.6875,3778.75]
+        notes: The perfect drink
+    - Enter Naboris:
+        icon: naboris-enter
+        coord: [-2526,3674]
+    - Vah Naboris:
+        comment: Use all 3 gales
+        coord: [-2500,3544]
+        icon: naboris-done
+        notes: .link([Follow this route] https://youtu.be/yu263ysGBdw?si=LUDojNKmZP6jj9On&t=4268)
+    - _Npc::Gerudo<Furosa>:
+        movements:
+          - [-3775.25,2854.25]
+          - [-3853.625,2873]
+        notes: The perfect drink
+    - _Npc::Gerudo<Shabonne>:
+        coord: [-3794.75,3124]
+        notes: Do the race
+        comment: Be fast
+    - _Shrine::RaqaZunzo:
+        notes: Chest ( Radian shield )
+    - _Warp::Shrine::DaqoChisay:
+        color: tomato
+    - _Tod::Noon:
+        coord: [-3746.5,2306]
+        notes: Only if is not 10h-21h
+    - _Npc::Gerudo<Anche>:
+        coord: [-3756,2271.5]
+    - _Material<Take Ice block>:
+        coord: [-3764.5,2700]
+    - Take Sand Seal:
+        icon: npc-gerudo
+        coord: [-3711,2898.5]
+        notes: Shoot bomb arrow on the sand seal to stun him
+    - _Npc::Gerudo<Pokki>:
+        coord: [-2967.625,3779]
+    - _Shrine::MisaeSuma
+    - _Tod::Noon:
+        notes: For Suma Sahma
+        coord: [-3089.25,3489.75]
+    - Take Sand Seal:
+        coord: [-3121.25,3463.125]
+        icon: npc-gerudo
+    - .boss(Enter Maze):
+        coord: [-1762.75,3470.5]
+        icon: tots
+    - _Shrine::DilaMaag
+    - Use gale:
+        coord: [-1796.25,3448.75]
+        icon: medoh-done
+    - Use gale:
+        coord: [-1551,3488]
+        icon: medoh-done
+    - Make Shadow with Snow Ball:
+        coord: [-1393.5,3503]
+        icon: tots
+    - _Shrine::SumaSahma
+    - _Shrine::IshtoSoh
+    - _Warp::Shrine::SaasKosah:
+        color: yellowgreen
+- End game:
+    - Use gale:
+        coord: [-130.5,-1046]
+        icon: medoh-done
+    - .boss(Kill Water Blight + Fire blight):
+        coord: [-252,-1011]
+        icon: tots
+    - .boss(Kill Calamity Ganon):
+        coord: [-251,-1084]
+        icon: tots
+    - .important(Bow of Light):
+        coord: [-250.74077289937213,440.2916075267767]
+        icon: bow
+    - .important(Kill Dark Beast):
+        icon: ganon
+        coord: [-260.48154579874426,587.5832150535525]
+        notes: GG

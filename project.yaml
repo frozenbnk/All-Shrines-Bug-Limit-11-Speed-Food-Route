@@ -1,0 +1,27 @@
+title: All Shrines Bug Limit 11 Speed Food Route
+
+version: 2.0
+
+route:
+  use: ./main.yaml
+
+
+config:
+  - use: Pistonight/celer-presets/botw/full.yaml
+
+  - icons:
+      zelda: https://icons.pistonite.org/icon/character.zelda.none.69a2d5.c1fefe.8c5e28.ffffb5.8c5e28.ffffb5.png
+      sor: https://icons.pistonite.org/icon/location.sor.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
+      horse: https://icons.pistonite.org/icon/misc.horse.none.69a2d5.c1fefe.8c5e28.ffffb5.8c5e28.ffffb5.png
+      daruk: https://icons.pistonite.org/icon/character.daruk.none.69a2d5.c1fefe.8c5e28.ffffb5.8c5e28.ffffb5.png
+      torch: https://icons.pistonite.org/icon/misc.hammer.none.8c5e28.ff9900.8c5e28.ff9900.8c5e28.ff9900.png
+      shrine-active: https://icons.pistonite.org/icon/shrine.shrine.none.69a2d5.c1fefe.8c5e28.ffffb5.8c5e28.ffffb5.png
+      kohga: https://icons.pistonite.org/icon/character.kohga.none.69a2d5.c1fefe.8c5e28.ffffb5.8c5e28.ffffb5.png
+      
+  - plugins:
+      - use: link
+      - use: variables 
+  
+  - tags:
+      active:
+        color: cyan
